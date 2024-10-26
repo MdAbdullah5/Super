@@ -13,6 +13,7 @@ import EventStatus from './components/Event_Status/EventStatus';
 import Registrations from './components/Registrations/Registrations';
 import Forms from './components/Forms/Forms';
 import Account from './components/Account/Account';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   const registrationData = [
@@ -93,9 +94,7 @@ function App() {
                     <MetricCard title="Total Registered" value="9,318" percentage="+6.08%" />
                   </div>
                   <div className="charts">
-                    <LineChart />
-                    <BarChart />
-                    <PieChart />
+                    <Dashboard/>
                   </div>
                   <div className="planning-section">
                     <h3>Planning</h3>
